@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Masume 🎨</title>
+    <meta name="description" content="A special birthday card for a special artist - Masume">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Quicksand:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Floating particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Instruction hint -->
+    <div class="instruction" id="instruction">
+        <span>✨ Swipe or tap to turn pages ✨</span>
+    </div>
+
+    <!-- Book container -->
+    <div class="book-container">
+        <div class="book" id="book">
+
+            <!-- Page 1 - Cover -->
+            <div class="card-page active" data-page="1">
+                <div class="cover">
+                    <div class="cover-decoration top-left"></div>
+                    <div class="cover-decoration top-right"></div>
+                    <div class="cover-decoration bottom-left"></div>
+                    <div class="cover-decoration bottom-right"></div>
+
+                    <div class="cover-content">
+                        <div class="artistic-brush"></div>
+                        <p class="cover-subtitle">✦ A Special Day for a Special Soul ✦</p>
+                        <h1 class="cover-title">Happy Birthday</h1>
+                        <h2 class="cover-name">Masume</h2>
+                        <div class="cover-art">
+                            <span class="palette">🎨</span>
+                        </div>
+                        <p class="cover-hint">click next to open →</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 2 - Birthday Wish -->
+            <div class="card-page" data-page="2">
+                <div class="page-content">
+                    <div class="page-inner">
+                        <div class="watercolor-blob blob1"></div>
+                        <div class="watercolor-blob blob2"></div>
+                        <h3 class="page-heading">Dear Masume,</h3>
+                        <div class="divider">
+                            <span>❀</span>
+                        </div>
+                        <p class="message">
+                            Today marks another beautiful chapter in your story — a story painted with colors only you
+                            could imagine.
+                        </p>
+                        <p class="message">
+                            Your art isn't just what you create on canvas... it's in the way you see the world, the way
+                            you make others feel seen, and the beauty you bring into every moment.
+                        </p>
+                        <p class="message signature">
+                            Happy Birthday, artist. 🌸
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 3 - Strength -->
+            <div class="card-page" data-page="3">
+                <div class="page-content">
+                    <div class="page-inner strength-page">
+                        <div class="watercolor-blob blob3"></div>
+                        <h3 class="page-heading">You Are Stronger Than You Know</h3>
+                        <div class="divider">
+                            <span>✧</span>
+                        </div>
+                        <p class="message">
+                            I know life hasn't always been gentle with you. You've walked through storms that would have
+                            broken many others.
+                        </p>
+                        <p class="message">
+                            But here you are — still creating, still dreaming, still being <em>you</em>. That takes more
+                            courage than you give yourself credit for.
+                        </p>
+                        <p class="message">
+                            Your playful spirit isn't naivety — it's <strong>resilience</strong>. It's choosing joy even
+                            when the world doesn't make it easy.
+                        </p>
+                        <div class="floating-element star">⭐</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 4 - Promise -->
+            <div class="card-page" data-page="4">
+                <div class="page-content">
+                    <div class="page-inner promise-page">
+                        <div class="watercolor-blob blob4"></div>
+                        <div class="watercolor-blob blob5"></div>
+                        <h3 class="page-heading">A Promise</h3>
+                        <div class="divider heart-divider">
+                            <span>♡</span>
+                        </div>
+                        <p class="message promise-text">
+                            I know you've had people leave. I know trust doesn't come easy anymore.
+                        </p>
+                        <p class="message promise-main">
+                            So let me be clear:
+                        </p>
+                        <blockquote class="promise-quote">
+                            "I'm not going anywhere."
+                        </blockquote>
+                        <p class="message">
+                            Through the good days and the hard ones, through the art blocks and the masterpieces,
+                            through everything — I'll be here.
+                        </p>
+                        <p class="message">
+                            You're stuck with me. 💜
+                        </p>
+                        <div class="floating-element heart">💜</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 5 - Final page with image -->
+            <div class="card-page" data-page="5">
+                <div class="page-content final-page">
+                    <div class="page-inner">
+                        <div class="watercolor-blob blob6"></div>
+                        <div class="image-frame">
+                            <img src="friends.png" alt="Our friend group" class="friends-image"
+                                onerror="this.style.background='linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)'; this.alt='[ Your image here ]';">
+                        </div>
+                        <p class="someday-quote">"Someday soon."</p>
+                        <p class="closing-message">
+                            Until then, know that distance means nothing when someone means everything.
+                        </p>
+                        <div class="final-signature">
+                            <p>With all my love,</p>
+                            <p class="your-name">Your Friend ♡</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 6 - Back Cover -->
+            <div class="card-page" data-page="6">
+                <div class="back-cover">
+                    <div class="back-content">
+                        <p class="back-year">2026</p>
+                        <div class="back-decoration">
+                            <span>🎨</span>
+                        </div>
+                        <p class="back-message">Made with love, for an extraordinary artist.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page indicator -->
+    <div class="page-indicator" id="pageIndicator">
+        <span class="current-page">1</span> / <span class="total-pages">6</span>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn" id="prevBtn" disabled aria-label="Previous page">
+            <span class="arrow">←</span>
+            <span>Back</span>
+        </button>
+        <button class="nav-btn next-btn" id="nextBtn" aria-label="Next page">
+            <span>Next</span>
+            <span class="arrow">→</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
