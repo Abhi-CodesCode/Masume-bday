@@ -136,8 +136,12 @@
                     <div class="page-inner">
                         <div class="watercolor-blob blob6"></div>
                         <div class="image-frame">
-                            <img src="friends.png" alt="Our friend group" class="friends-image"
-                                onerror="this.style.background='linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)'; this.alt='[ Your image here ]';">
+                            <img src="./friends.png" alt="Our friend group" class="friends-image"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder"
+                                style="display: none; height: 150px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 8px; align-items: center; justify-content: center; color: #9c7cb5; font-size: 0.9rem;">
+                                📸 Image loading...
+                            </div>
                         </div>
                         <p class="someday-quote">"Someday soon."</p>
                         <p class="closing-message">
